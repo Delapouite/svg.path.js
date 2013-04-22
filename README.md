@@ -132,7 +132,7 @@ var rect = draw.path()
 	.S({x: 300, y:200}, {x: 300, y: 100}) // The "reflected control point will be `{x:200, y:100}`
 ```
 
- ### T({x, y})
+### T({x, y})
 As the `S` function is a convenience function for drawing Cubic Bezier is the `T` function a convenience function for drawing Quadratic Bezier curves. The point argument is the endpoint of the curve. The control point will be the reflectins of the previous control point, or the previous point if no control point excists.
 
 ## Arcto
